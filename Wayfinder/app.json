@@ -15,7 +15,7 @@
   "package": "com.wayfindr.findplace",
   "config": {
     "googleMaps": {
-      "apiKey": "AIzaSyCxjq4fZKz5whrS_ftov7GOTJ6oJtrjuCU"
+      "apiKey": "Your_api_key"
     }
   },
   "adaptiveIcon": {
