@@ -9,8 +9,8 @@
 #define WIFI_PASSWORD "12341234"
 
 // Firebase Configuration
-#define API_KEY "AIzaSyDXNwhlxFszKU57mOzbWi_uc8mhy_BNZpU"
-#define DATABASE_URL "https://publictransportsystem-dd918-default-rtdb.asia-southeast1.firebasedatabase.app/"
+#define API_KEY "api_key"
+#define DATABASE_URL "database_url"
 
 // Firebase Objects
 FirebaseData fbdo;
