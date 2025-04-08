@@ -5,8 +5,8 @@
 #include <ArduinoJson.h>
 
 // Wi-Fi Credentials
-#define WIFI_SSID "Galaxy"
-#define WIFI_PASSWORD "12341234"
+#define WIFI_SSID "ssid"
+#define WIFI_PASSWORD "password"
 
 // Firebase Configuration
 #define API_KEY "api_key"
@@ -56,8 +56,8 @@ void initFirebase() {
     config.database_url = DATABASE_URL;
 
     // Enable Anonymous Authentication (fixes missing credentials error)
-    auth.user.email = "arav7373@gmail.com";
-    auth.user.password = "12341234";
+    auth.user.email = "email_id";
+    auth.user.password = "password";
 
     Firebase.begin(&config, &auth);
     Firebase.reconnectWiFi(true);
